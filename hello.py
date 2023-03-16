@@ -24,5 +24,5 @@ def search(path, ftype):
 
 
 if __name__ == "__main__":
-    # pylint: disable*no-value-for-parameter
+    # pylint: disable=no-value-for-parameter
     search()
