@@ -7,4 +7,4 @@ docker build --tag=clickecho .
 docker image ls
 
 # Run Container
-docker run -it clickecho python app.py --name "Big John"
+docker run -it clickecho python hello.py --path "." --ftype "py"

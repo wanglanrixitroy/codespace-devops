@@ -6,6 +6,8 @@ import glob
 @click.command()
 @click.option(
     "--path",
+    required=True,
+    type=str,
     prompt="Path to search for csv files",
     help="This is the path to search for files: /tmp",
 )
