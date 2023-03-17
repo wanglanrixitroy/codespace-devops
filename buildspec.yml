@@ -6,10 +6,8 @@ phases:
       docker: 20
     commands:
       - make install
-  testing & linting:
+  post_build:
     commands:
       - make lint
       - make test
-  post_build:
-    commands:
       - echo Testing completed on `data`
