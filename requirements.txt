@@ -3,3 +3,6 @@ pytest
 pylint
 black
 pytest-cov
+boto3
+ipython
+flask
